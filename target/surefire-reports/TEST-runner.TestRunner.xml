@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="runner.TestRunner" time="69.519" tests="16" errors="2" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="C:\Users\utkar\OneDrive\Desktop\Resources\Workspace\CucumberHybridFramework\TutorialsNinjaProject\target\test-classes;C:\Users\utkar\OneDrive\Desktop\Resources\Workspace\CucumberHybridFramework\TutorialsNinjaProject\target\classes;C:\Users\utkar\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\utkar\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\utkar\.m2\repository\io\cucumber\cucumber-java\7.21.1\cucumber-java-7.21.1.jar;C:\Users\utkar\.m2\repository\io\cucumber\cucumber-core\7.21.1\cucumber-core-7.21.1.jar;C:\Users\utkar\.m2\repository\io\cucumber\cucumber-gherkin\7.21.1\cucumber-gherkin-7.21.1.jar;C:\Users\utkar\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.21.1\cucumber-gherkin-messages-7.21.1.jar;C:\Users\utkar\.m2\repository\io\cucumber\gherkin\31.0.0\gherkin-31.0.0.jar;C:\Users\utkar\.m2\repository\io\cucumber\messages\27.2.0\messages-27.2.0.jar;C:\Users\utkar\.m2\repository\io\cucumber\testng-xml-formatter\0.3.1\testng-xml-formatter-0.3.1.jar;C:\Users\utkar\.m2\repository\io\cucumber\query\13.6.0\query-13.6.0.jar;C:\Users\utkar\.m2\repository\io\cucumber\tag-expressions\6.1.2\tag-expressions-6.1.2.jar;C:\Users\utkar\.m2\repository\io\cucumber\cucumber-expressions\18.0.1\cucumber-expressions-18.0.1.jar;C:\Users\utkar\.m2\repository\io\cucumber\datatable\7.21.1\datatable-7.21.1.jar;C:\Users\utkar\.m2\repository\io\cucumber\cucumber-plugin\7.21.1\cucumber-plugin-7.21.1.jar;C:\Users\utkar\.m2\repository\io\cucumber\docstring\7.21.1\docstring-7.21.1.jar;C:\Users\utkar\.m2\repository\io\cucumber\html-formatter\21.9.0\html-formatter-21.9.0.jar;C:\Users\utkar\.m2\repository\io\cucumber\junit-xml-formatter\0.7.1\junit-xml-formatter-0.7.1.jar;C:\Users\utkar\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\utkar\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\utkar\.m2\repository\io\cucumber\cucumber-junit\7.21.1\cucumber-junit-7.21.1.jar;C:\Users\utkar\.m2\repository\org\seleniumhq\selenium\selenium-java\4.30.0\selenium-java-4.30.0.jar;C:\Users\utkar\.m2\repository\org\seleniumhq\selenium\selenium-api\4.30.0\selenium-api-4.30.0.jar;C:\Users\utkar\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\utkar\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.30.0\selenium-chrome-driver-4.30.0.jar;C:\Users\utkar\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\utkar\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.30.0\selenium-chromium-driver-4.30.0.jar;C:\Users\utkar\.m2\repository\org\seleniumhq\selenium\selenium-json\4.30.0\selenium-json-4.30.0.jar;C:\Users\utkar\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.30.0\selenium-manager-4.30.0.jar;C:\Users\utkar\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v132\4.30.0\selenium-devtools-v132-4.30.0.jar;C:\Users\utkar\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v133\4.30.0\selenium-devtools-v133-4.30.0.jar;C:\Users\utkar\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v134\4.30.0\selenium-devtools-v134-4.30.0.jar;C:\Users\utkar\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.30.0\selenium-edge-driver-4.30.0.jar;C:\Users\utkar\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.30.0\selenium-firefox-driver-4.30.0.jar;C:\Users\utkar\.m2\repository\org\seleniumhq\selenium\selenium-http\4.30.0\selenium-http-4.30.0.jar;C:\Users\utkar\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.30.0\selenium-ie-driver-4.30.0.jar;C:\Users\utkar\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.30.0\selenium-remote-driver-4.30.0.jar;C:\Users\utkar\.m2\repository\com\google\guava\guava\33.4.5-jre\guava-33.4.5-jre.jar;C:\Users\utkar\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\utkar\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\utkar\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\utkar\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\utkar\.m2\repository\io\opentelemetry\opentelemetry-api\1.48.0\opentelemetry-api-1.48.0.jar;C:\Users\utkar\.m2\repository\io\opentelemetry\opentelemetry-context\1.48.0\opentelemetry-context-1.48.0.jar;C:\Users\utkar\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.48.0\opentelemetry-exporter-logging-1.48.0.jar;C:\Users\utkar\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.48.0\opentelemetry-sdk-common-1.48.0.jar;C:\Users\utkar\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.48.0\opentelemetry-sdk-extension-autoconfigure-spi-1.48.0.jar;C:\Users\utkar\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.48.0\opentelemetry-sdk-extension-autoconfigure-1.48.0.jar;C:\Users\utkar\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.48.0\opentelemetry-sdk-trace-1.48.0.jar;C:\Users\utkar\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.48.0\opentelemetry-sdk-1.48.0.jar;C:\Users\utkar\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.48.0\opentelemetry-sdk-metrics-1.48.0.jar;C:\Users\utkar\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.48.0\opentelemetry-sdk-logs-1.48.0.jar;C:\Users\utkar\.m2\repository\net\bytebuddy\byte-buddy\1.17.2\byte-buddy-1.17.2.jar;C:\Users\utkar\.m2\repository\org\seleniumhq\selenium\selenium-os\4.30.0\selenium-os-4.30.0.jar;C:\Users\utkar\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\utkar\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.30.0\selenium-safari-driver-4.30.0.jar;C:\Users\utkar\.m2\repository\org\seleniumhq\selenium\selenium-support\4.30.0\selenium-support-4.30.0.jar;C:\Users\utkar\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\utkar\AppData\Local\Temp\surefire10341174122832637511\surefirebooter-20260705131458083_3.jar C:\Users\utkar\AppData\Local\Temp\surefire10341174122832637511 2026-07-05T13-14-57_939-jvmRun1 surefire-20260705131458083_1tmp surefire_0-20260705131458083_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\utkar\OneDrive\Desktop\Resources\Workspace\CucumberHybridFramework\TutorialsNinjaProject\target\test-classes;C:\Users\utkar\OneDrive\Desktop\Resources\Workspace\CucumberHybridFramework\TutorialsNinjaProject\target\classes;C:\Users\utkar\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\utkar\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\utkar\.m2\repository\io\cucumber\cucumber-java\7.21.1\cucumber-java-7.21.1.jar;C:\Users\utkar\.m2\repository\io\cucumber\cucumber-core\7.21.1\cucumber-core-7.21.1.jar;C:\Users\utkar\.m2\repository\io\cucumber\cucumber-gherkin\7.21.1\cucumber-gherkin-7.21.1.jar;C:\Users\utkar\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.21.1\cucumber-gherkin-messages-7.21.1.jar;C:\Users\utkar\.m2\repository\io\cucumber\gherkin\31.0.0\gherkin-31.0.0.jar;C:\Users\utkar\.m2\repository\io\cucumber\messages\27.2.0\messages-27.2.0.jar;C:\Users\utkar\.m2\repository\io\cucumber\testng-xml-formatter\0.3.1\testng-xml-formatter-0.3.1.jar;C:\Users\utkar\.m2\repository\io\cucumber\query\13.6.0\query-13.6.0.jar;C:\Users\utkar\.m2\repository\io\cucumber\tag-expressions\6.1.2\tag-expressions-6.1.2.jar;C:\Users\utkar\.m2\repository\io\cucumber\cucumber-expressions\18.0.1\cucumber-expressions-18.0.1.jar;C:\Users\utkar\.m2\repository\io\cucumber\datatable\7.21.1\datatable-7.21.1.jar;C:\Users\utkar\.m2\repository\io\cucumber\cucumber-plugin\7.21.1\cucumber-plugin-7.21.1.jar;C:\Users\utkar\.m2\repository\io\cucumber\docstring\7.21.1\docstring-7.21.1.jar;C:\Users\utkar\.m2\repository\io\cucumber\html-formatter\21.9.0\html-formatter-21.9.0.jar;C:\Users\utkar\.m2\repository\io\cucumber\junit-xml-formatter\0.7.1\junit-xml-formatter-0.7.1.jar;C:\Users\utkar\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\utkar\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\utkar\.m2\repository\io\cucumber\cucumber-junit\7.21.1\cucumber-junit-7.21.1.jar;C:\Users\utkar\.m2\repository\org\seleniumhq\selenium\selenium-java\4.30.0\selenium-java-4.30.0.jar;C:\Users\utkar\.m2\repository\org\seleniumhq\selenium\selenium-api\4.30.0\selenium-api-4.30.0.jar;C:\Users\utkar\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\utkar\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.30.0\selenium-chrome-driver-4.30.0.jar;C:\Users\utkar\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\utkar\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.30.0\selenium-chromium-driver-4.30.0.jar;C:\Users\utkar\.m2\repository\org\seleniumhq\selenium\selenium-json\4.30.0\selenium-json-4.30.0.jar;C:\Users\utkar\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.30.0\selenium-manager-4.30.0.jar;C:\Users\utkar\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v132\4.30.0\selenium-devtools-v132-4.30.0.jar;C:\Users\utkar\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v133\4.30.0\selenium-devtools-v133-4.30.0.jar;C:\Users\utkar\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v134\4.30.0\selenium-devtools-v134-4.30.0.jar;C:\Users\utkar\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.30.0\selenium-edge-driver-4.30.0.jar;C:\Users\utkar\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.30.0\selenium-firefox-driver-4.30.0.jar;C:\Users\utkar\.m2\repository\org\seleniumhq\selenium\selenium-http\4.30.0\selenium-http-4.30.0.jar;C:\Users\utkar\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.30.0\selenium-ie-driver-4.30.0.jar;C:\Users\utkar\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.30.0\selenium-remote-driver-4.30.0.jar;C:\Users\utkar\.m2\repository\com\google\guava\guava\33.4.5-jre\guava-33.4.5-jre.jar;C:\Users\utkar\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\utkar\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\utkar\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\utkar\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\utkar\.m2\repository\io\opentelemetry\opentelemetry-api\1.48.0\opentelemetry-api-1.48.0.jar;C:\Users\utkar\.m2\repository\io\opentelemetry\opentelemetry-context\1.48.0\opentelemetry-context-1.48.0.jar;C:\Users\utkar\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.48.0\opentelemetry-exporter-logging-1.48.0.jar;C:\Users\utkar\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.48.0\opentelemetry-sdk-common-1.48.0.jar;C:\Users\utkar\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.48.0\opentelemetry-sdk-extension-autoconfigure-spi-1.48.0.jar;C:\Users\utkar\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.48.0\opentelemetry-sdk-extension-autoconfigure-1.48.0.jar;C:\Users\utkar\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.48.0\opentelemetry-sdk-trace-1.48.0.jar;C:\Users\utkar\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.48.0\opentelemetry-sdk-1.48.0.jar;C:\Users\utkar\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.48.0\opentelemetry-sdk-metrics-1.48.0.jar;C:\Users\utkar\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.48.0\opentelemetry-sdk-logs-1.48.0.jar;C:\Users\utkar\.m2\repository\net\bytebuddy\byte-buddy\1.17.2\byte-buddy-1.17.2.jar;C:\Users\utkar\.m2\repository\org\seleniumhq\selenium\selenium-os\4.30.0\selenium-os-4.30.0.jar;C:\Users\utkar\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\utkar\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.30.0\selenium-safari-driver-4.30.0.jar;C:\Users\utkar\.m2\repository\org\seleniumhq\selenium\selenium-support\4.30.0\selenium-support-4.30.0.jar;C:\Users\utkar\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\utkar"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-10-21"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\utkar\OneDrive\Desktop\Resources\Workspace\CucumberHybridFramework\TutorialsNinjaProject"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\utkar\AppData\Local\Temp\surefire10341174122832637511\surefirebooter-20260705131458083_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.9+7-LTS-338"/>
+    <property name="user.name" value="utkar"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\utkar\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\utkar\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.9"/>
+    <property name="user.dir" value="C:\Users\utkar\OneDrive\Desktop\Resources\Workspace\CucumberHybridFramework\TutorialsNinjaProject"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\apache-maven-3.9.6-bin\apache-maven-3.9.6\bin;C:\Program Files\Java\jdk-21\bin;C:\Program Files\Java\jdk-21\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\utkar\OneDrive\Documents\ngrok;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\utkar\scoop\shims;C:\Users\utkar\AppData\Local\Microsoft\WindowsApps;C:\Users\utkar\AppData\Local\Programs\Microsoft VS Code2\bin;C:\Users\utkar\.dotnet\tools;C:\Users\utkar\AppData\Roaming\npm;C:\Program Files\MySQL\MySQL Server 8.0\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.9+7-LTS-338"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="Login with valid credentials #1" classname="Login functionality" time="13.787">
+    <system-out><![CDATA[
+Scenario Outline: Login with valid credentials                                               # src/test/resource/features/Login.feature:13
+  Given User navigates to login page                                                         # stepdefinitions.Login.user_navigates_to_login_page()
+  When User enters valid email address "utkarsh1783197765848@gmail.com" into the email field # stepdefinitions.Login.user_enters_valid_email_address_into_the_email_field(java.lang.String)
+  And User has entered valid password "12345" into password field                            # stepdefinitions.Login.user_has_entered_valid_password_into_password_field(java.lang.String)
+  And User clicks on Login button                                                            # stepdefinitions.Login.user_clicks_on_login_button()
+  Then User should get successfully logged in                                                # stepdefinitions.Login.user_should_get_successfully_logged_in()
+]]></system-out>
+    <system-err><![CDATA[Jul 05, 2026 1:15:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jul 05, 2026 1:15:00 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.7827.201. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.30.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Login with valid credentials #2" classname="Login functionality" time="4.946">
+    <system-out><![CDATA[
+Scenario Outline: Login with valid credentials                                               # src/test/resource/features/Login.feature:14
+  Given User navigates to login page                                                         # stepdefinitions.Login.user_navigates_to_login_page()
+  When User enters valid email address "utkarsh1783197771499@gmail.com" into the email field # stepdefinitions.Login.user_enters_valid_email_address_into_the_email_field(java.lang.String)
+  And User has entered valid password "12345" into password field                            # stepdefinitions.Login.user_has_entered_valid_password_into_password_field(java.lang.String)
+  And User clicks on Login button                                                            # stepdefinitions.Login.user_clicks_on_login_button()
+  Then User should get successfully logged in                                                # stepdefinitions.Login.user_should_get_successfully_logged_in()
+]]></system-out>
+    <system-err><![CDATA[Jul 05, 2026 1:15:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jul 05, 2026 1:15:13 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.7827.201. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.30.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Login with valid credentials #3" classname="Login functionality" time="4.82">
+    <system-out><![CDATA[
+Scenario Outline: Login with valid credentials                                               # src/test/resource/features/Login.feature:15
+  Given User navigates to login page                                                         # stepdefinitions.Login.user_navigates_to_login_page()
+  When User enters valid email address "utkarsh1783197938103@gmail.com" into the email field # stepdefinitions.Login.user_enters_valid_email_address_into_the_email_field(java.lang.String)
+  And User has entered valid password "12345" into password field                            # stepdefinitions.Login.user_has_entered_valid_password_into_password_field(java.lang.String)
+  And User clicks on Login button                                                            # stepdefinitions.Login.user_clicks_on_login_button()
+  Then User should get successfully logged in                                                # stepdefinitions.Login.user_should_get_successfully_logged_in()
+]]></system-out>
+    <system-err><![CDATA[Jul 05, 2026 1:15:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jul 05, 2026 1:15:18 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.7827.201. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.30.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Login with valid credentials #4" classname="Login functionality" time="3.398">
+    <system-out><![CDATA[
+Scenario Outline: Login with valid credentials                                               # src/test/resource/features/Login.feature:16
+  Given User navigates to login page                                                         # stepdefinitions.Login.user_navigates_to_login_page()
+  When User enters valid email address "utkarsh1783197931929@gmail.com" into the email field # stepdefinitions.Login.user_enters_valid_email_address_into_the_email_field(java.lang.String)
+  And User has entered valid password "12345" into password field                            # stepdefinitions.Login.user_has_entered_valid_password_into_password_field(java.lang.String)
+  And User clicks on Login button                                                            # stepdefinitions.Login.user_clicks_on_login_button()
+  Then User should get successfully logged in                                                # stepdefinitions.Login.user_should_get_successfully_logged_in()
+]]></system-out>
+    <system-err><![CDATA[Jul 05, 2026 1:15:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jul 05, 2026 1:15:23 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.7827.201. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.30.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Login with invalid credentials" classname="Login functionality" time="3.517">
+    <system-out><![CDATA[
+Scenario: Login with invalid credentials                                   # src/test/resource/features/Login.feature:18
+  Given User navigates to login page                                       # stepdefinitions.Login.user_navigates_to_login_page()
+  When User enters invalid email address into email field                  # stepdefinitions.Login.user_enters_invalid_email_address_into_email_field()
+  And User enters invalid password "1234567654" into password field        # stepdefinitions.Login.user_enters_invalid_password_into_password_field(java.lang.String)
+  And User clicks on Login button                                          # stepdefinitions.Login.user_clicks_on_login_button()
+  Then User should get a proper warning message about credentials mismatch # stepdefinitions.Login.user_should_get_a_proper_warning_message_about_credentials_mismatch()
+]]></system-out>
+    <system-err><![CDATA[Jul 05, 2026 1:15:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jul 05, 2026 1:15:27 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.7827.201. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.30.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Login with valid email and invalid password" classname="Login functionality" time="7.33">
+    <error message="Cannot invoke &quot;org.openqa.selenium.WebElement.isDisplayed()&quot; because &quot;webElement&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.isDisplayed()" because "webElement" is null
+	at utils.ElementUtils.elementIsDisplayed(ElementUtils.java:122)
+	at Pages.LoginPage.warningMessageIsDisplayed(LoginPage.java:48)
+	at stepdefinitions.Login.user_should_get_a_proper_warning_message_about_credentials_mismatch(Login.java:71)
+	at ✽.User should get a proper warning message about credentials mismatch(file:///C:/Users/utkar/OneDrive/Desktop/Resources/Workspace/CucumberHybridFramework/TutorialsNinjaProject/src/test/resource/features/Login.feature:30)
+]]></error>
+    <system-out><![CDATA[
+Scenario: Login with valid email and invalid password                              # src/test/resource/features/Login.feature:25
+  Given User navigates to login page                                               # stepdefinitions.Login.user_navigates_to_login_page()
+  When User enters valid email address "123utkarsh@gmail.com" into the email field # stepdefinitions.Login.user_enters_valid_email_address_into_the_email_field(java.lang.String)
+  And User enters invalid password "1234567654" into password field                # stepdefinitions.Login.user_enters_invalid_password_into_password_field(java.lang.String)
+  And User clicks on Login button                                                  # stepdefinitions.Login.user_clicks_on_login_button()
+  Then User should get a proper warning message about credentials mismatch         # stepdefinitions.Login.user_should_get_a_proper_warning_message_about_credentials_mismatch()
+      java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.isDisplayed()" because "webElement" is null
+      	at utils.ElementUtils.elementIsDisplayed(ElementUtils.java:122)
+      	at Pages.LoginPage.warningMessageIsDisplayed(LoginPage.java:48)
+      	at stepdefinitions.Login.user_should_get_a_proper_warning_message_about_credentials_mismatch(Login.java:71)
+      	at ✽.User should get a proper warning message about credentials mismatch(file:///C:/Users/utkar/OneDrive/Desktop/Resources/Workspace/CucumberHybridFramework/TutorialsNinjaProject/src/test/resource/features/Login.feature:30)
+      org.openqa.selenium.NoSuchSessionException: invalid session id
+      Build info: version: '4.30.0', revision: '509c7f17cc*'
+      System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      Command: [9d36aa86957f695f3b17c42d98ac83ff, screenshot {}]
+      Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.201, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\utkar\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64278}, goog:processID: 39620, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64278/devtoo..., se:cdpVersion: 149.0.7827.201, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+      Session ID: 9d36aa86957f695f3b17c42d98ac83ff
+      	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+      	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+      	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+      	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+      	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+      	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+      	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:334)
+      	at hooks.MyHooks.teardown(MyHooks.java:37)
+]]></system-out>
+    <system-err><![CDATA[Jul 05, 2026 1:15:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jul 05, 2026 1:15:30 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.7827.201. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.30.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=149.0.7827.201)
+Build info: version: '4.30.0', revision: '509c7f17cc*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9d36aa86957f695f3b17c42d98ac83ff, findElement {value=//div[text()='Warning: No match for E-Mail Address and/or Password.'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.201, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\utkar\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64278}, goog:processID: 39620, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64278/devtoo..., se:cdpVersion: 149.0.7827.201, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9d36aa86957f695f3b17c42d98ac83ff
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:652)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at utils.ElementUtils.waitForElement(ElementUtils.java:42)
+	at utils.ElementUtils.elementIsDisplayed(ElementUtils.java:121)
+	at Pages.LoginPage.warningMessageIsDisplayed(LoginPage.java:48)
+	at stepdefinitions.Login.user_should_get_a_proper_warning_message_about_credentials_mismatch(Login.java:71)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runFeatures$6(CucumberExecutionContext.java:147)
+	at io.cucumber.core.runtime.CucumberExecutionContext.execute(CucumberExecutionContext.java:162)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runFeatures(CucumberExecutionContext.java:145)
+	at io.cucumber.junit.Cucumber$StartAndFinishTestRun.evaluate(Cucumber.java:229)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></system-err>
+  </testcase>
+  <testcase name="Login with valid email and invalid password" classname="Login functionality" time="7.33">
+    <error message="invalid session id&#10;Build info: version: &apos;4.30.0&apos;, revision: &apos;509c7f17cc*&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.9&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [9d36aa86957f695f3b17c42d98ac83ff, screenshot {}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.201, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\utkar\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64278}, goog:processID: 39620, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64278/devtoo..., se:cdpVersion: 149.0.7827.201, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 9d36aa86957f695f3b17c42d98ac83ff" type="org.openqa.selenium.NoSuchSessionException"><![CDATA[org.openqa.selenium.NoSuchSessionException: 
+invalid session id
+Build info: version: '4.30.0', revision: '509c7f17cc*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9d36aa86957f695f3b17c42d98ac83ff, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.201, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\utkar\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64278}, goog:processID: 39620, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64278/devtoo..., se:cdpVersion: 149.0.7827.201, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9d36aa86957f695f3b17c42d98ac83ff
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:334)
+	at hooks.MyHooks.teardown(MyHooks.java:37)
+]]></error>
+  </testcase>
+  <testcase name="Login with invalid email and valid password" classname="Login functionality" time="3.006">
+    <system-out><![CDATA[
+Scenario: Login with invalid email and valid password                      # src/test/resource/features/Login.feature:32
+  Given User navigates to login page                                       # stepdefinitions.Login.user_navigates_to_login_page()
+  When User enters invalid email address into email field                  # stepdefinitions.Login.user_enters_invalid_email_address_into_email_field()
+  And User has entered valid password "12345" into password field          # stepdefinitions.Login.user_has_entered_valid_password_into_password_field(java.lang.String)
+  And User clicks on Login button                                          # stepdefinitions.Login.user_clicks_on_login_button()
+  Then User should get a proper warning message about credentials mismatch # stepdefinitions.Login.user_should_get_a_proper_warning_message_about_credentials_mismatch()
+]]></system-out>
+    <system-err><![CDATA[Jul 05, 2026 1:15:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jul 05, 2026 1:15:37 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.7827.201. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.30.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Login without providing any credentials" classname="Login functionality" time="4.164">
+    <system-out><![CDATA[
+Scenario: Login without providing any credentials                          # src/test/resource/features/Login.feature:39
+  Given User navigates to login page                                       # stepdefinitions.Login.user_navigates_to_login_page()
+  When User dont enter email address into email field                      # stepdefinitions.Login.user_dont_enter_email_address_into_email_field()
+  And User dont enter password into password field                         # stepdefinitions.Login.user_dont_enter_password_into_password_field()
+  And User clicks on Login button                                          # stepdefinitions.Login.user_clicks_on_login_button()
+  Then User should get a proper warning message about credentials mismatch # stepdefinitions.Login.user_should_get_a_proper_warning_message_about_credentials_mismatch()
+]]></system-out>
+    <system-err><![CDATA[Jul 05, 2026 1:15:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jul 05, 2026 1:15:40 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.7827.201. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.30.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="User creates an account only with mandatory fields" classname="Registration Functionality" time="4.261">
+    <system-out><![CDATA[
+Scenario: User creates an account only with mandatory fields # src/test/resource/features/Register.feature:3
+  Given User navigates to Register Account Page              # stepdefinitions.Register.user_navigates_to_register_account_page()
+utkarsh1783237546501@gmail.com
+  When User enters the details into below fields             # stepdefinitions.Register.user_enters_the_details_into_below_fields(io.cucumber.datatable.DataTable)
+    | firstName | Utkarsh   |
+    | lastName  | Patil     |
+    | telephone | 123456565 |
+    | password  | 12345     |
+  And User selects Privacy Policy                            # stepdefinitions.Register.user_selects_privacy_policy()
+  And User clicks on Continue button                         # stepdefinitions.Register.user_clicks_on_continue_button()
+  Then User account should get created successfully          # stepdefinitions.Register.user_account_should_get_created_successfully()
+]]></system-out>
+    <system-err><![CDATA[Jul 05, 2026 1:15:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jul 05, 2026 1:15:44 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.7827.201. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.30.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="User creates an account with all fields" classname="Registration Functionality" time="4.007">
+    <system-out><![CDATA[
+Scenario: User creates an account with all fields   # src/test/resource/features/Register.feature:14
+  Given User navigates to Register Account Page     # stepdefinitions.Register.user_navigates_to_register_account_page()
+utkarsh1783237550665@gmail.com
+  When User enters the details into below fields    # stepdefinitions.Register.user_enters_the_details_into_below_fields(io.cucumber.datatable.DataTable)
+    | firstName | Utkarsh   |
+    | lastName  | Patil     |
+    | telephone | 123456565 |
+    | password  | 12345     |
+  And User selects Yes for Newsletter               # stepdefinitions.Register.user_selects_yes_for_newsletter()
+  And User selects Privacy Policy                   # stepdefinitions.Register.user_selects_privacy_policy()
+  And User clicks on Continue button                # stepdefinitions.Register.user_clicks_on_continue_button()
+  Then User account should get created successfully # stepdefinitions.Register.user_account_should_get_created_successfully()
+]]></system-out>
+    <system-err><![CDATA[Jul 05, 2026 1:15:49 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jul 05, 2026 1:15:49 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.7827.201. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.30.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="User creates a duplicate account" classname="Registration Functionality" time="4.039">
+    <system-out><![CDATA[
+Scenario: User creates a duplicate account                            # src/test/resource/features/Register.feature:26
+  Given User navigates to Register Account Page                       # stepdefinitions.Register.user_navigates_to_register_account_page()
+  When User enters the details into below fields with duplicate email # stepdefinitions.Register.user_enters_the_details_into_below_fields_with_duplicate_email(io.cucumber.datatable.DataTable)
+    | firstName | Utkarsh               |
+    | lastName  | Patil                 |
+    | email     | amortori785@gmail.com |
+    | telephone | 123456565             |
+    | password  | 12345                 |
+  And User selects Yes for Newsletter                                 # stepdefinitions.Register.user_selects_yes_for_newsletter()
+  And User selects Privacy Policy                                     # stepdefinitions.Register.user_selects_privacy_policy()
+  And User clicks on Continue button                                  # stepdefinitions.Register.user_clicks_on_continue_button()
+  Then User should get a proper warning about duplicate email         # stepdefinitions.Register.user_should_get_a_proper_warning_about_duplicate_email()
+]]></system-out>
+    <system-err><![CDATA[Jul 05, 2026 1:15:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jul 05, 2026 1:15:53 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.7827.201. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.30.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="User creates an account without filling any details" classname="Registration Functionality" time="2.758">
+    <system-out><![CDATA[
+Scenario: User creates an account without filling any details            # src/test/resource/features/Register.feature:39
+  Given User navigates to Register Account Page                          # stepdefinitions.Register.user_navigates_to_register_account_page()
+  When User dont enter any details into fields                           # stepdefinitions.Register.user_dont_enter_any_details_into_fields()
+  And User clicks on Continue button                                     # stepdefinitions.Register.user_clicks_on_continue_button()
+  Then User should get proper warning messages for every mandatory field # stepdefinitions.Register.user_should_get_proper_warning_messages_for_every_mandatory_field(java.util.List<java.lang.String>)
+    | First Name must be between 1 and 32 characters! |
+    | Last Name must be between 1 and 32 characters!  |
+    | E-Mail Address does not appear to be valid!     |
+    | Telephone must be between 3 and 32 characters!  |
+    | Password must be between 4 and 20 characters!   |
+]]></system-out>
+    <system-err><![CDATA[Jul 05, 2026 1:15:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jul 05, 2026 1:15:57 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.7827.201. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.30.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="User searches for a valid product" classname="Search Functionality" time="2.679">
+    <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertFalse(Assert.java:65)
+	at org.junit.Assert.assertFalse(Assert.java:75)
+	at stepdefinitions.Search.user_should_get_valid_product_displayed_in_search_results(Search.java:47)
+	at ✽.User should get valid product displayed in search results(file:///C:/Users/utkar/OneDrive/Desktop/Resources/Workspace/CucumberHybridFramework/TutorialsNinjaProject/src/test/resource/features/Search.feature:7)
+]]></failure>
+    <system-out><![CDATA[
+Scenario: User searches for a valid product                      # src/test/resource/features/Search.feature:3
+  Given User opens the Application                               # stepdefinitions.Search.user_opens_the_application()
+  When User enters valid product "HP" into Search box field      # stepdefinitions.Search.user_enters_valid_product_into_search_box_field(java.lang.String)
+  And User clicks on Search button                               # stepdefinitions.Search.user_clicks_on_search_button()
+  Then User should get valid product displayed in search results # stepdefinitions.Search.user_should_get_valid_product_displayed_in_search_results()
+      java.lang.AssertionError
+      	at org.junit.Assert.fail(Assert.java:87)
+      	at org.junit.Assert.assertTrue(Assert.java:42)
+      	at org.junit.Assert.assertFalse(Assert.java:65)
+      	at org.junit.Assert.assertFalse(Assert.java:75)
+      	at stepdefinitions.Search.user_should_get_valid_product_displayed_in_search_results(Search.java:47)
+      	at ✽.User should get valid product displayed in search results(file:///C:/Users/utkar/OneDrive/Desktop/Resources/Workspace/CucumberHybridFramework/TutorialsNinjaProject/src/test/resource/features/Search.feature:7)
+
+    Embedding User_searches_for_a_valid_product [image/png 99689 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Jul 05, 2026 1:16:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jul 05, 2026 1:16:00 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.7827.201. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.30.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="User searches for an invalid product" classname="Search Functionality" time="2.309">
+    <system-out><![CDATA[
+Scenario: User searches for an invalid product                   # src/test/resource/features/Search.feature:9
+  Given User opens the Application                               # stepdefinitions.Search.user_opens_the_application()
+  When User enters invalid product "Honda" into Search box field # stepdefinitions.Search.user_enters_invalid_product_into_search_box_field(java.lang.String)
+  And User clicks on Search button                               # stepdefinitions.Search.user_clicks_on_search_button()
+  Then User should get a message about no product matching       # stepdefinitions.Search.user_should_get_a_message_about_no_product_matching()
+]]></system-out>
+    <system-err><![CDATA[Jul 05, 2026 1:16:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jul 05, 2026 1:16:02 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.7827.201. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.30.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="User searches without any product" classname="Search Functionality" time="2.08">
+    <system-out><![CDATA[
+Scenario: User searches without any product                   # src/test/resource/features/Search.feature:15
+  Given User opens the Application                            # stepdefinitions.Search.user_opens_the_application()
+  When User dont enter any product name into Search box field # stepdefinitions.Search.user_dont_enter_any_product_name_into_search_box_field()
+  And User clicks on Search button                            # stepdefinitions.Search.user_clicks_on_search_button()
+  Then User should get a message about no product matching    # stepdefinitions.Search.user_should_get_a_message_about_no_product_matching()
+]]></system-out>
+    <system-err><![CDATA[Jul 05, 2026 1:16:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jul 05, 2026 1:16:05 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.7827.201. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.30.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+</testsuite>
